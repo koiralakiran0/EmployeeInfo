@@ -29,6 +29,6 @@ public class DefaultController {
         Hashtable<String, String> result = new Hashtable<String, String>();
         result.put("Last Build", formatter.format(buildProperties.getTime()));
 
-        return ResponseEntity.ok("");
+        return ResponseEntity.ok(result);
     }
 }
